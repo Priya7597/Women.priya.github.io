@@ -34,7 +34,7 @@
   p{font-size :20px;
 	font-weight:200; 
 	  }
-   div.line{
+   .line{
       font-family : monospace;
       text-align :center;
 	   font-size :50px;
@@ -68,29 +68,74 @@
 
 	
 
+
+    .shadow
+
+    {
+
+        display:block;
+
+        position:relative;
+
+    }
+
+    
+
+    img {
+
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+    
+
+    .shadow:before
+
+    {
+
+        display:block;
+
+        content:'';
+
+        position:absolute;
+
+        width:100%;
+
+        height:100%;
+
+        -moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+
+        -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+
+        box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+
+    }
 	
 	   
-   img.styl{
-      position: absolute;
-	max-width: 100%;
+   
+      
+
+	
 	   
 
     
 
     
 
-    overflow: auto;
+   
 
 
 
-}
+
 	   
 	
 	
 	
 	
      
-     @media screen and (orientation: portrait) {
+    /* @media screen and (orientation: portrait) {
 
   img.styl { max-width: 100%; }
 
@@ -100,7 +145,8 @@
 
   img.styl { max-height: 100%; }
 
-}
+}   */
+	   
 	
     
 
@@ -112,14 +158,18 @@
      पुरुष…देश की उन्नति एक पंख से उड़ान
      भरने पर नही हो सकती हैं.</p><br>
 	 
-	 <!--
-   <img class="styl" src="img1.jpeg" alt="women">
+	 <div class="shadow">
+
+               
+
+        
+   <img src="ima3.jpeg" alt="women"/>
    
-	   
-   -->
-	 <div class="line">
+	   </div>
+  
+	 <div>
    
-   HAPPY<br>WOMEN'S<br>DAY
+
    
    <p style="font-weight:500;"> Enjóy ur day with a 
      <b>FLAT 50%—60% OFF</b>on ur favorites!
